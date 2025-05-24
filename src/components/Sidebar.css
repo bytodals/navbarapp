@@ -1,10 +1,13 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    background-color: var(--black);
+    background-color: var(--brand);
+    color: var(--accent);
     width: 100%;
-    padding-left: 40px;
+    padding-left: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .dropdown-content {
@@ -12,10 +15,12 @@
     position: absolute;
     grid-column: auto;
     color: var(--white);
-    background-color: var(--black);
-    font-weight: bold;
+    background-color: var(--brand);
+    font-weight: normal;
+    font-size: 20px;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
     padding: 10px 10px;
     padding-left: 20px;
     height: 100vh;
@@ -27,7 +32,7 @@
 a {
 display: flex;
 flex-direction: column;
-gap: 15px;
+gap: 10px;
 }
 
 

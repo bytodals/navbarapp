@@ -1,15 +1,17 @@
 .hamburger {
     display: none;
-    font-size: 3rem;
+    font-size: 2rem;
     background: none;
     color: var(--accent);
-    text-shadow: 2px 2px black;
-    border: none;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
+    border:none;
+    background-color: var(--brand);
     position: fixed;
     top: 1rem;
     left: 1rem;
     z-index: 1000;
     cursor: pointer;
+    padding: 1px;
 }
 
 .mobile-menu {
@@ -51,31 +53,30 @@
     }
 
     .mobile-nav {
-        gap: 5px;
+        gap: 1.5rem;
         color: var(--white);
-        font-size: 26px;
+        background-color: var(--brand);
+        font-size: 32px;
         font-weight: bolder;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        text-align: center;
+        padding-top: 20%;
+    }
+
+
+    .mobile-sidebar {
+        color: var(--accent);
+        font-size: 22px;
+        font-weight: bold;
         text-transform: uppercase;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
         text-align: center;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
-
-    .mobile-sidebar {
-        gap: 5px;
-        color: var(--accent);
-        font-size: 15px;
-        font-weight: bold;
-        text-transform: uppercase;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 }
 
