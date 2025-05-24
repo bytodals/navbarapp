@@ -1,4 +1,3 @@
-import './Post.css';
 import Post from './Post';
 
 function PostList() {
@@ -9,7 +8,7 @@ function PostList() {
   ];
 
   return (
-    <div className="post-list">
+    <div className="postList">
       {posts.map((post, index) => (
         <Post key={index} title={post.title} body={post.body} />
       ))}

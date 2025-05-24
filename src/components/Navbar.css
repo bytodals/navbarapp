@@ -14,7 +14,7 @@
 }
 
 .navbar a {
-    padding: 10px;
+    padding: 1vh;
     color: var(--accent);
 }
 
@@ -23,7 +23,7 @@
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    gap: 20px;
+    gap: 2vh;
 }
 
 .nav-links :hover {
